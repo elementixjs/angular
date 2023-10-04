@@ -1,0 +1,40 @@
+{
+    "name": "@elementixjs/angular",
+    "version": "0.0.0",
+    "scripts": {
+        "ng": "ng",
+        "primeng": "ng run primeng:storybook",
+        "primeng-build-storybook": "ng run primeng:build-storybook"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "^16.2.0",
+        "@angular/common": "^16.2.0",
+        "@angular/compiler": "^16.2.0",
+        "@angular/core": "^16.2.0",
+        "@angular/forms": "^16.2.0",
+        "@angular/platform-browser": "^16.2.0",
+        "@angular/platform-browser-dynamic": "^16.2.0",
+        "@angular/router": "^16.2.0",
+        "primeng": "^16.4.1",
+        "rxjs": "~7.8.0",
+        "tslib": "^2.3.0",
+        "zone.js": "~0.13.0"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^16.2.4",
+        "@angular/cli": "^16.2.4",
+        "@angular/compiler-cli": "^16.2.0",
+        "@storybook/addon-essentials": "^7.4.6",
+        "@storybook/addon-interactions": "^7.4.6",
+        "@storybook/addon-links": "^7.4.6",
+        "@storybook/angular": "^7.4.6",
+        "@storybook/blocks": "^7.4.6",
+        "@storybook/testing-library": "^0.2.2",
+        "ng-packagr": "^16.2.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "storybook": "^7.4.6",
+        "typescript": "~5.1.3"
+    }
+}
